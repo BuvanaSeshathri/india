@@ -1,0 +1,23 @@
+body
+{
+    background-color: ivory;
+}
+p
+{
+    font-size: large;
+    font-family:'Gill Sans MT';
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 50px;
+}
+.column {
+-ms-flex: 20%; /* IE10 */
+flex: 20%;
+max-width: 25%;
+padding: 0 2px;
+}
